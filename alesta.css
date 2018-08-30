@@ -1,0 +1,117 @@
+.square{
+	width: 8%;
+	background-color: #02ef75;
+	padding-bottom: 8%;
+	padding-left: 15px;
+	float: right;
+	margin : 12px;
+	border-radius: 50%;
+	transition: background 0.6s;
+	-webkit-transition: background 0.6s;
+	-moz-transition: background 0.6s;
+	background-color: #C10100;
+	text-align: center;
+	opacity:0.9;
+}
+
+#container{
+	max-width: 100%;
+	margin-left: 10px;
+	margin-right: 450px;
+	margin-top: 150px;
+}
+
+#passenger{
+	margin-left:-10px;
+	color: white;
+	text-align: left;
+	position:relative; 
+	top:38px;
+	font-weight: bold;
+}
+
+#rightInput{
+	margin-top: 15px;
+	margin-left: 987px;
+}
+
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2015/04/08/04/41/the-chinese-dragon-712149_960_720.jpg");
+	background-repeat: no-repeat;
+	background-position: 1230px 0;
+	background-size: 150px 150px;
+	color: #C10100;
+}
+
+ h1 {
+	 position: center;
+	 margin-top: 20px;
+	 margin-left: 600px;
+	 font-family: 'Dancing Script', cursive;
+	 font-size: 4em;
+	 text-transform: uppercase;
+ }
+ .header img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+ 
+ h2{
+	 margin-top: 50px;
+	 margin-left: 30px;
+	 font-family: 'Dancing Script', cursive;																										
+	 text-transform: uppercase;
+ }
+ #calculationFrame{
+	 margin-bottom: -250px;
+	 margin-top: -50px;
+	 margin-left: 40px;
+	 color: #C10100;
+	 font-family: 'Lobster', cursive;
+	 font-size: 1.5em;
+ }
+ 
+hr{
+	margin-top:-20px;
+	margin-left: 400px;
+	width: 600px;
+	float: left;
+	border-color: #C10100;
+    height: "50%";
+}
+
+.orderBtn{
+	border-radius: 50%;
+	background-color: #40BB40;
+	color: white;
+	font-family: 'Lobster', cursive;
+}
+
+th, td {
+	margin-left:950px;
+	margin-right:10px;
+	margin-top:10px;
+	position: relative;
+    top: 100px;
+	padding: 8px;
+}
+
+table{
+	
+	margin-left:950px;
+	margin-right:80px;
+	margin-top:-10px;
+	position: relative;
+    top: 100px;
+	right:40px;
+	padding: 8px;
+}

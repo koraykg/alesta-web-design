@@ -1,0 +1,51 @@
+//kullanıcıdan kilolar teker teker alınarak bir array'e atandı ve bu array sıralandı.
+//function generateSortedWeightArr(){
+//	
+//	
+//	return arr;
+//}
+
+
+//Toplam ağırlık hesaplandı ve geri döndürüldü.
+function totalWeight{
+	var totalWeight = 0;
+	for(var i=0;i<numPeople;i++){
+		totalWeight += arr[i];
+	}
+	return totalWeight;
+}
+
+//solda oturacakların ağırlıkları arrLeft'e atanmıştır
+function leftSideArr(arr){
+		arrLeft = [];
+	for(var i=0;i<(numPeople/2);i+=2){
+		arrLeft[i] = arr[i];
+	}		
+	return arrLeft;
+}
+
+//solda oturacakların toplam ağırlığı hesaplanmıştır ve döndürüldü.
+function leftSideTotalWeight{
+	var totalLeftWeight = 0;
+	for(var i=0;i<numPeople;i++){
+		totalLeftWeight += arrLeft[i];
+	}
+	return totalLeftWeight;
+}
+
+//sağda oturacaklar ise arrRight dizininze atanmıştır.
+function rightSideArr{
+		arrRight = [];
+	for(var i=1;i<(numPeople/2);i+=2){
+		arrRight[i-1] = arr[i];
+	}		
+	return arrRight
+}
+
+function rightSideTotalWeight{
+	var totalRightWeight = 0;
+	for(var i=0;i<(numPeople/2);i++){
+		totalRightWeight += arrRight[i];
+	}
+	return totalRightWeight;
+}
